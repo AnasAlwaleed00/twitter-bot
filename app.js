@@ -11,7 +11,7 @@ const T = new Twit({
   access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 });
 
-cron.schedule("0 * * * *", () => {
+cron.schedule("*/10 * * * *", () => {
   getRandomQuote();
 });
 
