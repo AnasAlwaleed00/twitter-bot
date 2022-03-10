@@ -1,0 +1,28 @@
+{
+  "name": "quotes-bot",
+  "version": "1.0.0",
+  "description": "A bot that posts scheduled tweets sudanese lyrics",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "sudanese",
+    "songs"
+  ],
+  "author": "Anas Alwaleed",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "twit": "^2.2.11"
+  }
+}
