@@ -2,6 +2,7 @@ var cron = require("node-cron");
 const Twit = require("twit");
 const dotenv = require("dotenv");
 dotenv.config();
+
 const Quote = require("./QuoteModel.js");
 
 const T = new Twit({
